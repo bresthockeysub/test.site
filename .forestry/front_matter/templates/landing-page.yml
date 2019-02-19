@@ -13,11 +13,13 @@ fields:
 - type: text
   label: Hero Heading
   name: heading
-  default: Belkirk College
+  default: CSB
+  hidden: true
 - type: text
   name: sub_heading
   label: Hero Sub heading
-  default: Engineering and Health Sciences
+  default: Clube de Hockey Subaquatique
+  hidden: true
 - type: file
   name: banner_image
   label: Hero Image
@@ -34,6 +36,7 @@ fields:
   - type: text
     name: href
     label: Link
+  hidden: true
 - type: textarea
   name: textline
   label: Description
@@ -42,6 +45,7 @@ fields:
     required: false
     schema:
       format: markdown
+  hidden: true
 - name: services
   label: Services
   type: field_group_list
@@ -61,7 +65,7 @@ fields:
     type: file
     hidden: false
     default: ''
-  hidden: false
+  hidden: true
   default: ''
 - type: boolean
   name: show_news
@@ -70,10 +74,12 @@ fields:
 - type: image_gallery
   name: partners
   label: Partner Logos
+  hidden: true
 - type: boolean
   name: show_staff
   label: Show Staff?
   description: Enables a staff section that lists each person in the People collection
+  hidden: true
 - name: layout
   label: Layout
   type: text
