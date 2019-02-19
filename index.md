@@ -5,13 +5,7 @@ layout: landing-page
 heading: CSB
 sub_heading: Acceuil
 textline: Site du club de hockey subaquatique de Brest
-hero_button:
-  text: Learn more
-  href: "/about"
 show_news: true
-services: []
-partners: []
-show_staff: false
 menu:
   navigation:
     identifier: _index
