@@ -1,8 +1,15 @@
 ---
 navigation:
-- url: "/posts/"
-  weight: 5
-  title: test posts
+- identifier: _posts
+  weight: 4
+  url: "/posts/"
+  title: Posts
+- weight: 3
+  title: Le hockey subaquatique
+  url: "/le-hockey-subaquatique/"
+- identifier: _index
+  weight: 1
+  title: Home
 - url: https://goo.gl/forms/P5oU44KhelnaU0RF2
   weight: 2
   title: Inscription

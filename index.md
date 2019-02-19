@@ -6,10 +6,6 @@ heading: CSB
 sub_heading: Acceuil
 textline: Site du club de hockey subaquatique de Brest
 show_news: true
-menu:
-  navigation:
-    identifier: _index
-    weight: 1
 
 ---
 #### Bienvenue sur le site du CSB (Club subaquatique de BREST)
