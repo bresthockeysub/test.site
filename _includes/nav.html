@@ -47,7 +47,7 @@
         </ul>
     </nav>-->
   	{% for menu-item in site.data.menus.navigation %}
-	<ul>
+	<ul class="navigation">
 	   <li><a href="{{ menu-item.url }}">{{ child.title }}</a></li>
 	</ul>
 	{% endfor %}
