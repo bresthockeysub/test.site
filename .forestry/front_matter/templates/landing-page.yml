@@ -65,9 +65,5 @@ fields:
   type: text
   hidden: true
   default: home
-- type: include
-  name: ''
-  label: ''
-  template: googleforms
 pages:
 - index.md
