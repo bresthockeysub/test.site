@@ -1,7 +1,7 @@
 ---
 heading: ''
 sub_heading: ''
-layout: home
+layout: post
 title: Le Hockey Subaquatique
 banner_image: "/uploads/banniere_csb_3.png"
 show_news: false
