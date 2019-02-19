@@ -1,0 +1,11 @@
+---
+label: GoogleForms
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: url
+  label: URL
+  description: Url du site
+  config:
+    required: true
