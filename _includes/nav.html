@@ -6,10 +6,10 @@
 
 <header class="site-header">
   <div class="container">
-      <h1 class="logo">
+      <!--<h1 class="logo">
         <a href="{{ "/" | absolute_url }}">{{ site.name }}</a>
       </h1>
-      <!--<nav class="main-nav">
+      <nav class="main-nav">
         <ul class="navigation">
           {% for link in site.menus.navigation %}
           <li class="{% if link.children %}nested {% endif %}{% if url == link.url %}current{% endif %}">
@@ -48,7 +48,9 @@
     </nav>-->
   	{% for menu-item in site.data.menus.navigation %}
 	<ul class="navigation">
-	   <li><a href="{{ menu-item.url }}">{{ child.title }}</a></li>
+	   <li class="current">
+		   <a href="{{ menu-item.url }}">{{ child.title }}</a>
+		</li>
 	</ul>
 	{% endfor %}
   </div>
