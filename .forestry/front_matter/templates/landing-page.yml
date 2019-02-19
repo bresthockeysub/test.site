@@ -14,12 +14,12 @@ fields:
   label: Hero Heading
   name: heading
   default: CSB
-  hidden: true
+  hidden: false
 - type: text
   name: sub_heading
   label: Hero Sub heading
   default: Clube de Hockey Subaquatique
-  hidden: true
+  hidden: false
 - type: file
   name: banner_image
   label: Hero Image
@@ -36,7 +36,7 @@ fields:
   - type: text
     name: href
     label: Link
-  hidden: true
+  hidden: false
 - type: textarea
   name: textline
   label: Description
@@ -45,32 +45,12 @@ fields:
     required: false
     schema:
       format: markdown
-  hidden: true
-- name: services
-  label: Services
-  type: field_group_list
-  fields:
-  - name: heading
-    label: Heading
-    type: text
-    hidden: false
-    default: ''
-  - name: description
-    label: Description
-    type: text
-    hidden: false
-    default: ''
-  - name: icon
-    label: Icon
-    type: file
-    hidden: false
-    default: ''
-  hidden: true
-  default: ''
+  hidden: false
 - type: boolean
   name: show_news
   label: Show News?
   description: Enables a news section with a twitter feed & latest posts
+  default: false
 - type: image_gallery
   name: partners
   label: Partner Logos
@@ -85,6 +65,10 @@ fields:
   type: text
   hidden: true
   default: home
+- type: include
+  name: ''
+  label: ''
+  template: googleforms
 pages:
 - index.md
 - inscription.md
