@@ -40,5 +40,4 @@ fields:
   hidden: true
   default: post
 pages:
-- _posts/c-est-la-rentrée.md
 - le-hockey-subaquatique.md
