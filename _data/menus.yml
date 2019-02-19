@@ -1,5 +1,8 @@
 ---
 navigation:
+- url: "/posts/"
+  weight: 5
+  title: test posts
 - url: https://goo.gl/forms/P5oU44KhelnaU0RF2
   weight: 2
   title: Inscription
